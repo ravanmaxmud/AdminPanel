@@ -8,5 +8,10 @@ namespace AdminPanel.Controllers
         {
             return View();
         }
+
+        public IActionResult Customers()
+        {
+            return View();
+        }
     }
 }

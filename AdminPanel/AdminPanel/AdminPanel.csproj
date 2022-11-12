@@ -7,10 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
     <Folder Include="DataBase\Models\" />
     <Folder Include="ViewModels\Home\" />
-    <Folder Include="wwwroot\assest\" />
   </ItemGroup>
 
 </Project>
