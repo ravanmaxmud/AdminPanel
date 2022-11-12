@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace AdminPanel.Controllers
+namespace AdminPanel.Controllers.DashBoardAndApp
 {
     public class CyrptoController : Controller
     {

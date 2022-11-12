@@ -13,5 +13,10 @@ namespace AdminPanel.Controllers
         {
             return View();
         }
+
+        public IActionResult Reports()
+        {
+            return View();
+        }
     }
 }

@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Views\Analytics\jjkidqlu.x4j~" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="DataBase\Models\" />
     <Folder Include="ViewModels\Home\" />
   </ItemGroup>

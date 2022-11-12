@@ -145,7 +145,7 @@
                                             <a asp-controller="Analytics" asp-action="Customers" class="nav-link ">Customers</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a href="analytics-reports.html" class="nav-link ">Reports</a>
+                                            <a asp-controller="Analytics" asp-action="Reports" class="nav-link ">Reports</a>
                                         </li><!--end nav-item-->
                                     </ul><!--end nav-->
                                 </div><!--end sidebarAnalytics-->
@@ -1048,6 +1048,17 @@
     </div>
     <!-- Top Bar End -->
     <!-- Top Bar End -->
+
+
+          <!-- Footer Start -->
+            <footer class="footer text-center text-sm-start">
+                &copy; <script type="text/javascript">
+                           document.write(new Date(z).getFullYear())
+                </script> Metrica <span class="text-muted d-none d-sm-inline-block float-end">
+                    Crafted with <i class="mdi mdi-heart text-danger"></i> by Mannatthemes
+                </span>
+            </footer>
+            <!-- end Footer -->
 
 
     @RenderBody();
