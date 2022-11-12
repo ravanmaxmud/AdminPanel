@@ -8,5 +8,9 @@ namespace AdminPanel.Controllers.DashBoardAndApp
         {
             return View();
         }
+        public IActionResult Exchange()
+        {
+            return View();
+        }
     }
 }

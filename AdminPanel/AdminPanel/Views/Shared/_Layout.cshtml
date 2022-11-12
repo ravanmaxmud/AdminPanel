@@ -17,13 +17,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- App favicon -->
-
-
     @RenderSection("style", required:false);
-  <link href="~/assets/plugins/tabulator/bootstrap/tabulator_bootstrap4.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/plugins/tabulator/bootstrap/tabulator_bootstrap4.css" rel="stylesheet" type="text/css" />
 
     <!-- App css -->
-   
+
 
     <link href="~/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="~/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
@@ -102,7 +100,7 @@
 
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link" asp-controller="Analytics" asp-action="index" >Analytics</a>
+                            <a class="nav-link" asp-controller="Analytics" asp-action="index">Analytics</a>
                         </li><!--end nav-item-->
                         <li class="nav-item">
                             <a class="nav-link" asp-controller="Cyrpto" asp-action="index">Cyrpto</a>
@@ -159,7 +157,7 @@
                                 <div class="collapse " id="sidebarCrypto">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="crypto-exchange.html">Exchange</a>
+                                            <a class="nav-link" asp-controller="Cyrpto" asp-action="Exchange">Exchange</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
                                             <a class="nav-link" href="crypto-wallet.html">Wallet</a>
@@ -1048,23 +1046,18 @@
     </div>
     <!-- Top Bar End -->
     <!-- Top Bar End -->
-
-
-          <!-- Footer Start -->
-            <footer class="footer text-center text-sm-start">
-                &copy; <script type="text/javascript">
-                           document.write(new Date(z).getFullYear())
-                </script> Metrica <span class="text-muted d-none d-sm-inline-block float-end">
-                    Crafted with <i class="mdi mdi-heart text-danger"></i> by Mannatthemes
-                </span>
-            </footer>
-            <!-- end Footer -->
-
-
     @RenderBody();
 
-
-     @RenderSection("script", required:false);
+    <!-- Footer Start -->
+    <footer class="footer text-center text-sm-start">
+        &copy; <script type="text/javascript">
+                   document.write(new Date(z).getFullYear())
+        </script> Metrica <span class="text-muted d-none d-sm-inline-block float-end">
+            Crafted with <i class="mdi mdi-heart text-danger"></i> by Mannatthemes
+        </span>
+    </footer>
+    <!-- end Footer -->
+    @RenderSection("script", required:false);
 
     <!-- App js -->
     <script src="~/assets/js/app.js"></script>
