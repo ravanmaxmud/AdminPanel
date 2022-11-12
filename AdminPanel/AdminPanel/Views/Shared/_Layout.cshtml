@@ -160,7 +160,7 @@
                                             <a class="nav-link" asp-controller="Cyrpto" asp-action="Exchange">Exchange</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="crypto-wallet.html">Wallet</a>
+                                            <a class="nav-link" asp-controller="Cyrpto" asp-action="Wallet">Wallet</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
                                             <a class="nav-link" href="crypto-news.html">Crypto News</a>
@@ -453,16 +453,16 @@
                             </li><!--end nav-item-->
 
                             <li class="nav-item">
-                                <a class="nav-link" href="apps-chat.html">Chat</a>
+                                <a class="nav-link" asp-controller="Chat" asp-action="index">Chat</a>
                             </li><!--end nav-item-->
                             <li class="nav-item">
-                                <a class="nav-link" href="apps-contact-list.html">Contact List</a>
+                                <a class="nav-link" asp-controller="ContractList" asp-action="index" >Contact List</a>
                             </li><!--end nav-item-->
                             <li class="nav-item">
-                                <a class="nav-link" href="apps-calendar.html">Calendar</a>
+                                <a class="nav-link" asp-controller="Calendar" asp-action="index">Calendar</a>
                             </li><!--end nav-item-->
                             <li class="nav-item">
-                                <a class="nav-link" href="apps-invoice.html">Invoice</a>
+                                <a class="nav-link" asp-controller="Invoice" asp-action="index">Invoice</a>
                             </li><!--end nav-item-->
                         </ul><!--end navbar-nav--->
                     </div><!--end sidebarCollapse-->
@@ -1049,13 +1049,7 @@
     @RenderBody();
 
     <!-- Footer Start -->
-    <footer class="footer text-center text-sm-start">
-        &copy; <script type="text/javascript">
-                   document.write(new Date(z).getFullYear())
-        </script> Metrica <span class="text-muted d-none d-sm-inline-block float-end">
-            Crafted with <i class="mdi mdi-heart text-danger"></i> by Mannatthemes
-        </span>
-    </footer>
+
     <!-- end Footer -->
     @RenderSection("script", required:false);
 

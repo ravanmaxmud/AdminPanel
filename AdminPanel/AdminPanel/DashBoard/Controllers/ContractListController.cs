@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace AdminPanel.Controllers.DashBoardAndApp
+namespace AdminPanel.Controllers
 {
-    public class ProjectController : Controller
+    public class ContractListController : Controller
     {
         public IActionResult Index()
         {

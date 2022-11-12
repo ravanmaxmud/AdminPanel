@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace AdminPanel.Controllers.DashBoardAndApp
+namespace AdminPanel.Controllers
 {
-    public class HospitalController : Controller
+    public class HelpdeskController : Controller
     {
         public IActionResult Index()
         {

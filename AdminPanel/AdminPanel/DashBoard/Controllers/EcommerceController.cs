@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace AdminPanel.Controllers.DashBoardAndApp
+namespace AdminPanel.Controllers
 {
     public class EcommerceController : Controller
     {

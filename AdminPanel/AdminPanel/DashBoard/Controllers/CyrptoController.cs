@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace AdminPanel.Controllers.DashBoardAndApp
+namespace AdminPanel.Controllers
 {
     public class CyrptoController : Controller
     {
@@ -9,6 +9,10 @@ namespace AdminPanel.Controllers.DashBoardAndApp
             return View();
         }
         public IActionResult Exchange()
+        {
+            return View();
+        }
+        public IActionResult Wallet()
         {
             return View();
         }

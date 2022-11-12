@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DataBase\Models\" />
-    <Folder Include="ViewModels\Home\" />
+    <Folder Include="DashBoard\DataBase\Models\" />
+    <Folder Include="DashBoard\ViewModels\Home\" />
   </ItemGroup>
 
 </Project>
