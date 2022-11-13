@@ -2,6 +2,7 @@
 
 namespace AdminPanel.Controllers
 {
+
     public class CRMController : Controller
     {
         public IActionResult Index()

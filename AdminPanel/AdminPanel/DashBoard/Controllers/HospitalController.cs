@@ -2,6 +2,7 @@
 
 namespace AdminPanel.Controllers
 {
+
     public class HospitalController : Controller
     {
         public IActionResult Index()

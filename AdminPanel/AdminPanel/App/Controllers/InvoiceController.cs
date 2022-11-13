@@ -2,6 +2,7 @@
 
 namespace AdminPanel.App.Controllers
 {
+
     public class InvoiceController : Controller
     {
         public IActionResult Index()

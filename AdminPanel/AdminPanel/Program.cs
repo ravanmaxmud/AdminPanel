@@ -13,7 +13,6 @@ namespace AdminPanel
             app.MapControllerRoute(
             name: "default",
             pattern: "{controller=analytics}/{action=index}");
-
             app.Run();
         }
     }

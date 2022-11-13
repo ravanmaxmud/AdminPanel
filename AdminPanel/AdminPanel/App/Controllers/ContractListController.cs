@@ -2,6 +2,7 @@
 
 namespace AdminPanel.Controllers
 {
+
     public class ContractListController : Controller
     {
         public IActionResult Index()

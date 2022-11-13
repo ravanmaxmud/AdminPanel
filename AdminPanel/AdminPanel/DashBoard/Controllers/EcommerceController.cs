@@ -2,6 +2,7 @@
 
 namespace AdminPanel.Controllers
 {
+
     public class EcommerceController : Controller
     {
         public IActionResult Index()

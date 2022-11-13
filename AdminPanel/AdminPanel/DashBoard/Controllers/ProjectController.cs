@@ -2,6 +2,7 @@
 
 namespace AdminPanel.Controllers
 {
+
     public class ProjectController : Controller
     {
         public IActionResult Index()

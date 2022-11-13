@@ -29,7 +29,7 @@
 </head>
 
 <body id="body" class="">
-  
+
     <!-- leftbar-tab-menu -->
     <div class="leftbar-tab-menu">
         <div class="main-icon-menu">
@@ -456,7 +456,7 @@
                                 <a class="nav-link" asp-controller="Chat" asp-action="index">Chat</a>
                             </li><!--end nav-item-->
                             <li class="nav-item">
-                                <a class="nav-link" asp-controller="ContractList" asp-action="index" >Contact List</a>
+                                <a class="nav-link" asp-controller="ContractList" asp-action="index">Contact List</a>
                             </li><!--end nav-item-->
                             <li class="nav-item">
                                 <a class="nav-link" asp-controller="Calendar" asp-action="index">Calendar</a>
@@ -771,40 +771,40 @@
                     </div>
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link" href="auth-login.html">Log in</a>
+                            <a asp-controller="Authentication" asp-action="Login" class="nav-link">Log in</a>
                         </li><!--end nav-item-->
                         <li class="nav-item">
-                            <a class="nav-link" href="auth-login-alt.html">Log in alt</a>
+                            <a asp-controller="Authentication" asp-action="LoginAlt" class="nav-link">Log in alt</a>
                         </li><!--end nav-item-->
                         <li class="nav-item">
-                            <a class="nav-link" href="auth-register.html">Register</a>
+                            <a asp-controller="Authentication" asp-action="Register" class="nav-link">Register</a>
                         </li><!--end nav-item-->
                         <li class="nav-item">
-                            <a class="nav-link" href="auth-register-alt.html">Register-alt</a>
+                            <a asp-controller="Authentication" asp-action="RegisterAlt" class="nav-link">Register-alt</a>
                         </li><!--end nav-item-->
                         <li class="nav-item">
-                            <a class="nav-link" href="auth-recover-pw.html">Re-Password</a>
+                            <a asp-controller="Authentication" asp-action="Repassword" class="nav-link">Re-Password</a>
                         </li><!--end nav-item-->
                         <li class="nav-item">
-                            <a class="nav-link" href="auth-recover-pw-alt.html">Re-Password-alt</a>
+                            <a asp-controller="Authentication" asp-action="RepasswordAlt" class="nav-link">Re-Password-alt</a>
                         </li><!--end nav-item-->
                         <li class="nav-item">
-                            <a class="nav-link" href="auth-lock-screen.html">Lock Screen</a>
+                            <a asp-controller="Authentication" asp-action="Lock" class="nav-link">Lock Screen</a>
                         </li><!--end nav-item-->
                         <li class="nav-item">
-                            <a class="nav-link" href="auth-lock-screen-alt.html">Lock Screen-alt</a>
+                            <a asp-controller="Authentication" asp-action="LockAlt" class="nav-link">Lock Screen-alt</a>
                         </li><!--end nav-item-->
                         <li class="nav-item">
-                            <a class="nav-link" href="auth-404.html">Error 404</a>
+                            <a asp-controller="Authentication" asp-action="Eror404" class="nav-link">Error 404</a>
                         </li><!--end nav-item-->
                         <li class="nav-item">
-                            <a class="nav-link" href="auth-404-alt.html">Error 404-alt</a>
+                            <a asp-controller="Authentication" asp-action="Eror404Alt" class="nav-link">Error 404-alt</a>
                         </li><!--end nav-item-->
                         <li class="nav-item">
-                            <a class="nav-link" href="auth-500.html">Error 500</a>
+                            <a asp-controller="Authentication" asp-action="Eror500" class="nav-link">Error 500</a>
                         </li><!--end nav-item-->
                         <li class="nav-item">
-                            <a class="nav-link" href="auth-500-alt.html">Error 500-alt</a>
+                            <a asp-controller="Authentication" asp-action="Eror500Alt" class="nav-link">Error 500-alt</a>
                         </li><!--end nav-item-->
                     </ul><!--end nav-->
                 </div><!-- end Authentication-->
@@ -1046,23 +1046,25 @@
     </div>
     <!-- Top Bar End -->
     <!-- Top Bar End -->
-
     <!-- Footer Start -->
-      @RenderBody();
+    @RenderBody();
 
-   <div class="page-wrapper">
 
         <!-- Page Content-->
+        <div class="page-content-tab">
 
-        <footer class="footer text-center text-sm-start">
-                    &copy; <script>
-                        document.write(new Date().getFullYear())
-                    </script> Metrica <span class="text-muted d-none d-sm-inline-block float-end">Crafted with <i
-                            class="mdi mdi-heart text-danger"></i> by Mannatthemes</span>
-                </footer>
-      
+            <footer class="footer text-center text-sm-start">
+                &copy; <script>
+                           document.write(new Date().getFullYear())
+                </script> Metrica <span class="text-muted d-none d-sm-inline-block float-end">
+                    Crafted with <i class="mdi mdi-heart text-danger"></i> by Mannatthemes
+                </span>
+            </footer>
+            <!-- end Footer -->
+            <!--end footer-->
+        </div>
         <!-- end page content -->
-    </div>
+
     <!-- end Footer -->
     @RenderSection("script", required:false);
 

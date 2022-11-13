@@ -10,14 +10,4 @@
     <None Remove="Views\Analytics\jjkidqlu.x4j~" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="App\DataBase\" />
-    <Folder Include="App\ViewModels\" />
-    <Folder Include="DashBoard\DataBase\Models\" />
-    <Folder Include="DashBoard\ViewModels\Home\" />
-    <Folder Include="Pages\DataBase\" />
-    <Folder Include="Pages\ViewModels\" />
-    <Folder Include="Views\Authentication\" />
-  </ItemGroup>
-
 </Project>
