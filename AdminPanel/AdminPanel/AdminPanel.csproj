@@ -17,6 +17,7 @@
     <Folder Include="DashBoard\ViewModels\Home\" />
     <Folder Include="Pages\DataBase\" />
     <Folder Include="Pages\ViewModels\" />
+    <Folder Include="Views\Authentication\" />
   </ItemGroup>
 
 </Project>
