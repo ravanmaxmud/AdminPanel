@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace AdminPanel.DashBoard.Controllers
+namespace AdminPanel.App.Controllers
 {
     public class InvoiceController : Controller
     {

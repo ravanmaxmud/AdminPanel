@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace AdminPanel.Controllers
+namespace AdminPanel.App.Controllers
 {
-    public class ChatController : Controller
+    public class CalendarController : Controller
     {
         public IActionResult Index()
         {

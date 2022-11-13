@@ -30,6 +30,7 @@
 </head>
 
 <body id="body" class="">
+  
     <!-- leftbar-tab-menu -->
     <div class="leftbar-tab-menu">
         <div class="main-icon-menu">
@@ -735,7 +736,7 @@
                     </div>
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link" href="pages-profile.html">Profile</a>
+                            <a asp-controller="Profile" asp-action="index" class="nav-link">Profile</a>
                         </li><!--end nav-item-->
                         <li class="nav-item">
                             <a class="nav-link" href="pages-tour.html">Tour</a>
@@ -1046,10 +1047,23 @@
     </div>
     <!-- Top Bar End -->
     <!-- Top Bar End -->
-    @RenderBody();
 
     <!-- Footer Start -->
+      @RenderBody();
 
+   <div class="page-wrapper">
+
+        <!-- Page Content-->
+
+        <footer class="footer text-center text-sm-start">
+                    &copy; <script>
+                        document.write(new Date().getFullYear())
+                    </script> Metrica <span class="text-muted d-none d-sm-inline-block float-end">Crafted with <i
+                            class="mdi mdi-heart text-danger"></i> by Mannatthemes</span>
+                </footer>
+      
+        <!-- end page content -->
+    </div>
     <!-- end Footer -->
     @RenderSection("script", required:false);
 
