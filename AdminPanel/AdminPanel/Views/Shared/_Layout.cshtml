@@ -19,7 +19,6 @@
     <!-- App favicon -->
     @RenderSection("style", required:false);
     <link href="~/assets/plugins/tabulator/bootstrap/tabulator_bootstrap4.css" rel="stylesheet" type="text/css" />
-
     <!-- App css -->
 
 
@@ -745,16 +744,16 @@
                             <a asp-controller="Timeline" asp-action="index" class="nav-link">Timeline</a>
                         </li><!--end nav-item-->
                         <li class="nav-item">
-                            <a class="nav-link" href="pages-treeview.html">Treeview</a>
+                            <a asp-controller="Treeview" asp-action="index" class="nav-link">Treeview</a>
                         </li><!--end nav-item-->
                         <li class="nav-item">
-                            <a class="nav-link" href="pages-starter.html">Starter Page</a>
+                            <a asp-controller="Starter" asp-action="index" class="nav-link">Starter Page</a>
                         </li><!--end nav-item-->
                         <li class="nav-item">
-                            <a class="nav-link" href="pages-pricing.html">Pricing</a>
+                            <a asp-controller="Pricing" asp-action="index" class="nav-link">Pricing</a>
                         </li><!--end nav-item-->
                         <li class="nav-item">
-                            <a class="nav-link" href="pages-blogs.html">Blogs</a>
+                            <a asp-controller="Blogs" asp-action="index" class="nav-link">Blogs</a>
                         </li><!--end nav-item-->
                         <li class="nav-item">
                             <a class="nav-link" href="pages-faq.html">FAQs</a>
